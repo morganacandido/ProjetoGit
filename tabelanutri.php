@@ -5,7 +5,7 @@
 
 	echo "<p>Olá, " .strtoupper($_POST["nome"]), " " .strtoupper($_POST["sobrenome"]);
 
-	$senhareal= "senha123";
+	$senhareal= "1234";
 	$hash= password_hash($senhareal, PASSWORD_DEFAULT);
 	echo "<p>Senha: ".$hash."<p>";
 
