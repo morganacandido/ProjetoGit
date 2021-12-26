@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> FICHA TÉCNINA DOS ALIMENTOS</title>
+	<link rel="stylesheet" href="estilo/estilo.css">
+</head>
+<body>
+		<form class= "form" method="POST" action="trabalho_final.php">
+		<style >
+			body{font-family: Arial}
+			.content{display: flex; justify-content: center;}
+			.contato{width: 100%; max-width: 500px;}
+			.form{display: flex; flex-direction: column;}
+			.field{padding: 10px; margin-bottom: 15px; border: 1px solid #DDD; border-radius: 5px; font-family: Arial, Helvetica; font-size: 16px;}
+			
+
+		</style>
+		<section class="content">
+			<div class="contato">
+			<h2>FICHA TÉCNICA DOS ALIMENTOS</h2>
+			Nome: <input  class="field" type=text name="nome"> <br>
+			<br>
+			Sobrenome: <input class="field" type=text name="sobrenome"><br>
+			<br>
+			Senha: <input  class="field" name=senha type=password ><br>
+			<br>Alimento: <select class="field" name="alimento">
+				<option value="Tomate/Salada">Tomate/Salada</option>
+				<option value="Queijo/Ricota">Queijo/Ricota</option>
+				<option value="Arroz tipo 1">Arroz tipo 1</option>
+				<option value="Feijão preto">Feijão preto</option>
+			</select><br>
+			<br>Porção (gramas): <input class="field" type=text name=quantidade><br>
+			<br>
+			<br><input class="field" type=submit><br>
+			<br>
+		</div>
+			</section>
+		</form>
+		</body>
+</html>
